@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --dark-purple: rgb(76, 0, 69);
+  --light-purple: rgb(111, 7, 101);
+  --dark-gold: rgb(189, 81, 47);
+  --light-gold: rgb(255, 178, 40); 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* showcase */
+.showcase {
+  background: url(../img/showcase-main.jpg) no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.showcase .cover {
+  background-color: rgba(76, 0, 69, .9);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 5;
+}
+
+/* navbar */
+.showcase .container {
+  height: 100px;
+}
+
+.navbar {
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar .logo img {
+  width: 200px;
+}
+
+.navbar .nav {
+  width: 300px;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.nav a:hover {
+  color: var(--light-gold);
+}
+
+/* showcase-main */
+.showcase-main {
+  flex-direction: column;
+  height: 80vh;
+  position: relative;
+  z-index: 10;
+}
+.showcase-main .profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 40px;
+}
+
+.showcase-main h1,
+.showcase-main p {
+  color: #fff;
+}
+
+.showcase-main .btn {
+  border: 2px solid var(--light-gold);
+  background-color: transparent;
+  color: var(--light-gold);
+  margin: 40px auto 0px;
+  padding: 10px 30px;
+  position: relative;
+  z-index: 10;
+}
+
+/* footer */
+footer {
+  background-color: rgb(76, 0, 69);
+}
+
+.social {
+  background-color: var(--light-purple);
+}
+.social i {
+  margin: 10px;
+  cursor: pointer;
+  color: var(--light-gold);
+}
+
+.contact {
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-info {
+  color: #fff;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: rgb(255, 178, 40);
+  color: #fff;
+  margin-left: 15px;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.copyright i {
+  margin-right: 5px;
+}
