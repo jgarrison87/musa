@@ -1,0 +1,56 @@
+@media (max-width:900px) {
+  .showcase .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .logo img {
+    width: 150px;
+    margin-top: 10px;
+  }
+
+  .showcase .navbar .nav {
+    width: 250px;
+  }
+
+  .showcase-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .showcase-main .profile img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .showcase-main h1 {
+    font-size: 2rem;
+  }
+
+  .showcase-main p {
+    font-size: 1rem;
+  }
+
+  /* footer */
+  footer .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-form {
+    margin: 20px;
+  }
+
+  .contact-form input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 8px 10px;
+    margin: 10px 0px;
+  }
+
+  .contact-form button {
+    margin-top: 10px;
+  }
+}
