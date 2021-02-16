@@ -91,6 +91,11 @@ body {
   z-index: 10;
 }
 
+.showcase-main .btn:hover {
+  background-color: rgb(255, 178, 40);
+  color: #fff;
+}
+
 /* footer */
 footer {
   background-color: rgb(76, 0, 69);
