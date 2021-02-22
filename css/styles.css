@@ -103,6 +103,10 @@ body {
   flex-direction: column;
 }
 
+.wwd h1 {
+  text-align: center;
+}
+
 .wwd span {
   color: var(--light-purple)
 }
