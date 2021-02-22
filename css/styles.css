@@ -96,6 +96,43 @@ body {
   color: #fff;
 }
 
+/* body */
+/* What We Do*/
+.wwd {
+  display: flex;
+  flex-direction: column;
+}
+
+.wwd span {
+  color: var(--light-purple)
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+.service i {
+  color: var(--light-purple);
+}
+
+.services-text {
+  padding: 5px 15px;
+}
+
+.services-text p {
+  padding-top: 5px;
+}
+
 /* footer */
 footer {
   background-color: rgb(76, 0, 69);

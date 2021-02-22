@@ -2,153 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <!-- font awesome -->
   <script src="https://kit.fontawesome.com/b891d7c2aa.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
-  <title>EdgeLEdger Financial | Accounting & Investment</title>
+  <title>Vanessa</title>
 </head>
-<body id="home">
-  <!-- Navbar -->
-  <nav id="navbar">
-    <h1 class="logo">
-      <span class="text-primary">
-        <i class="fas fa-power-off"></i></i> Power</span>Ledger
-    </h1>
-    <ul>
-     <li><a href="#home">Home</a></li>
-     <li><a href="#what">What</a></li>
-     <li><a href="#who">Who</a></li>
-     <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <!-- Header: Showcase -->
-  <header id="showcase">
-    <div class="showcase-content">
-      <h1 class="l-heading">
-        The Power Is Limitless
+<body>
+  <div class="showcase">
+  <div class="cover"></div>
+    <div class="navbar container flex">
+      <div class="logo">
+        <img src="./img/logo.jpg" alt="">
+      </div>
+      <div class="nav flex">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+      </div>
+    </div>
+    <div class="showcase-main flex">
+      <div class="profile">
+        <img src="./img/profile-pic.png" alt="">
+      </div>
+      <h1 class="lg py-2">
+        Hello, I'm Vanessa
       </h1>
-      <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae a vel ad ducimus temporibus molestiae!
+      <p class="sm">
+        Providing the <strong><u>best</u></strong> consulting services in South Florida to help you
       </p>
-      <a href="#what" class="btn">Read More</a>
+      <p class="md py-1">
+        <strong>Unlock your business potential</strong>
+      </p>
+      <button class="btn sm">Lets Chat!</button>
     </div>
-  </header>
+  </div>
 
-  <!-- Section : What We Do -->
-  <section id="what" class="bg=light py-1">
-    <div class="container">
-      <h2 class="m-heading text-center"><span class="text-primary">What</span>We Do</h2>
-      <div class="items">
-        <div class="item">
-          <i class="fas fa-university fa-2x"></i>
-          <div>
-            <h3>Investment Banking</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repellendus!</p>
-          </div>
+  <!-- body -->
+  <div class="wwd container flex">
+    <h1 class="lg p-3"><span>What</span> We Do</h1>
+    <div class="services">
+      <div class="service">
+        <div class="icon">
+          <i class="fas fa-users fa-4x"></i>
         </div>
-        <div class="item">
-          <i class="fas fa-book-reader fa-2x"></i>
-          <div>
-            <h3>Portfolio Management</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repellendus!</p>
-          </div>
+        <div class="services-text">
+          <h2 class="md">Social Media</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, reprehenderit?</p>
         </div>
-        <div class="item">
-          <i class="fas fa-pencil-alt fa-2x"></i>
-          <div>
-            <h3>Tax & Custodial</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repellendus!</p>
-          </div>
+      </div>
+      <div class="service">
+        <div class="icon">
+          <i class="fas fa-chart-pie fa-4x"></i>
+        </div>
+        <div class="services-text">
+          <h2 class="md">New Content</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, reprehenderit?</p>
+        </div>
+      </div>
+      <div class="service">
+        <div class="icon">
+          <i class="fas fa-globe fa-4x"></i>
+        </div>
+        <div class="services-text">
+          <h2 class="md">Campaigns</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, reprehenderit?</p>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Who We Are -->
-  <section id="who">
-    <div class="who-img"></div>
-    <div class="who-text bg-dark p-2">
-      <h2 class="m-heading"><span class="text-primary">Who</span>We Are</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim officiis iste amet a quas nulla eveniet quos aliquam laudantium nostrum quae, dicta cupiditate earum facilis libero ut blanditiis inventore?</p>
-      <h3>Our Team</h3>
-      <ul class="list">
-        <li>Mark Smith: CEO</li>
-        <li>Shannon Johnson: CFO</li>
-        <li>John Corbit: Lead Accountant</li>
-        <li>Janet Williams: Investment Manager</li>
-        <li>Kara Jackson: Senior Accountant</li>
-        <li>Tracy Atkins: Senior VP</li>
-      </ul>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="social flex">
+      <i class="fab fa-facebook fa-2x"></i>
+      <i class="fab fa-instagram fa-2x"></i>
+      <i class="fab fa-linkedin fa-2x"></i>
     </div>
-  </section>
-
-  <!-- Section: Clients -->
-  <section id="clients" class="py-1">
-    <div class="container">
-      <h2 class="m-heading text-center">
-        <span class="text-primary">Our</span>Clients
-      </h2>
-      <div class="items py-1">
-        <div><img src="./img/logos/logo1.png" alt="Client"></div>
-        <div><img src="./img/logos/logo2.png" alt="Client"></div>
-        <div><img src="./img/logos/logo3.png" alt="Client"></div>
-        <div><img src="./img/logos/logo4.png" alt="Client"></div>
-        <div><img src="./img/logos/logo5.png" alt="Client"></div>
+    <div class="contact container flex">
+      <div class="contact-info">
+        <h2 class="md">Vanessa Vergara</h2>
+        <p class="sm">Marketing Consultant
+          <br>
+          South Florida
+        </p>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="First name">
+          <input type="email" placeholder="Email">
+          <button type="submit" class="btn">More Info</button>
+        </form>
       </div>
     </div>
-  </section>
-  <!-- Section: Contact -->
-  <section id="contact">
-    <div class="contact-form bg-primary p-2">
-      <h2 class="m-heading">Contact Us</h2>
-      <p>Please use the form below to contact us</p>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="Enter Name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Enter Email">
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
-        </div>
-        <input type="submit" value="Send" class="btn btn-dark">
-      </form>
+    <div class="copyright">
+      <p><i class="far fa-paper-plane"></i>vanessa@themarketingmusa.com</p>
+      &copy; 2021 All Rights Reserved
     </div>
-    <div class="map"></div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="main-footer" class="bg-dark text-center py-1">
-    <div class="container">
-      <p>Copyright &copy; 2020, Power Ledger, All Rights Reserved</p>
-   </div>
   </footer>
-<!-- JQuery CDN -->
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-
-  <!-- Local JS File -->
-  <script src="js/main.js"></script>
-
-  <!-- Google Maps -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKLJZBb0PXBcuWNQBVUoHgztT-YrmC0VE&callback=initMap"async defer></script>
-
 </body>
 </html>
-
-<!-- AIzaSyCKLJZBb0PXBcuWNQBVUoHgztT-YrmC0VE -->
-
- 

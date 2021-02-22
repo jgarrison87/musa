@@ -1,65 +1,71 @@
-#what .items {
-  display: block;
-  padding: 1rem;
-}
-
-/* Align Icon to Left */
-#what .items .item {
-  display: flex;
-  text-align: left;
-}
-
-/* Position icon */
-#what .items .item i {
-  margin-right: 1.3rem;
-  align-self:  center;
-  margin-bottom: 0;
-}
-
-
-/* Smartphones */
-@media(max-width: 500px) {
-  #navbar {
+@media (max-width:900px) {
+  .showcase .navbar{
+    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
-  #navbar .logo {
-    margin-bottom: 0.5rem;
+  .navbar .logo img {
+    width: 150px;
+    margin-top: 10px;
+  }
+
+  .showcase .navbar .nav {
+    width: 250px;
+  }
+
+  .showcase-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .showcase-main .profile img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .showcase-main h1 {
+    font-size: 2rem;
+  }
+
+  .showcase-main p {
+    font-size: 1rem;
+  }
+
+  /* body */
+  /* What We Do */
+  .wwd {
+    flex-direction: column;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  footer .contact {
+    flex-direction: column;
     text-align: center;
   }
 
-  #navbar ul {
-    padding: 0.5rem;
+  .contact-form {
+    margin: 20px;
   }
 
-  #showcase .showcase-content {
-    top: 110px;
-    margin-top: -2rem;
-  }
-
-  #who {
-    display: block;
-  }
-
-  #who .who-img {
-    display: none;
-  }
-
-  #clients .items img {
-    width: 80%;
-  }
-
-  #clients .items div:last-child {
-    display: none;
-  }
-
-  #contact {
+  .contact-form input{
+    display: flex;
     flex-direction: column;
+    width: 250px;
+    padding: 8px 10px;
+    margin: 10px 0px;
   }
 
-  #contact .map {
-    height: 200px;
-    border-top: 4px solid #333;
+  .contact-form button {
+    margin-top: 10px;
   }
 }
