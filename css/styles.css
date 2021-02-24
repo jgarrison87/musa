@@ -137,6 +137,29 @@ body {
   padding-top: 5px;
 }
 
+/* body */
+/* cards */
+
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  width: 350px;
+  justify-self: center;
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.grid-item img:hover {
+  opacity: .7;
+}
+
+
 /* footer */
 footer {
   background-color: rgb(76, 0, 69);

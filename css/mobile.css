@@ -47,6 +47,12 @@
     margin-bottom: 20px;
   }
 
+  /* body */
+  /* cards */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   /* footer */
   footer .contact {
     flex-direction: column;
